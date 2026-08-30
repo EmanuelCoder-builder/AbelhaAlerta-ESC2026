@@ -1,0 +1,26 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Build
+build/
+cmake-build-*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dataset grande (manter apenas amostras pequenas no repo)
+dataset/full_resolution/
